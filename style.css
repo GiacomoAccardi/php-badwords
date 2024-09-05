@@ -3,3 +3,34 @@
     margin: 0;
     box-sizing: border-box;
 }
+
+body {
+    background-color: rgb(29, 29, 29);
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.header {
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    background-color: rgb(43, 128, 226);
+}
+
+main {
+    margin: 30px 30px;
+}
+
+p {
+    margin-bottom: 30px;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+textarea {
+    padding: 10px;
+}

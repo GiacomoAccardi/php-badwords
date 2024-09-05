@@ -10,5 +10,18 @@
     <div class="header">
         <h1>BadWords ***</h1>
     </div>
+
+    <main>
+        <p>
+            Scrivi un testo, poi scrivi nell'apposito form una parola da censurare!
+        </p>
+
+        <div class="form">
+            <label for="">Paragrafo:</label>
+            <textarea name="paragrafo" id="paragrafo" placeholder="Inserisci qui il tuo testo"></textarea>
+            <label for="">Parola da censurare:</label>
+            <textarea name="badword" id="badword" placeholder="Inserisci qui la parola da censurare"></textarea>
+        </div>
+    </main>
 </body>
 </html>
