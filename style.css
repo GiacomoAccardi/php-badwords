@@ -17,7 +17,8 @@ body {
     background-color: rgb(43, 128, 226);
 }
 
-main {
+main,
+.results {
     margin: 30px 30px;
 }
 
@@ -25,7 +26,8 @@ p {
     margin-bottom: 30px;
 }
 
-form {
+form,
+.results {
     display: flex;
     flex-direction: column;
     gap: 15px;
@@ -50,4 +52,12 @@ button {
 
 button:hover {
     background-color: rgb(144, 43, 226);
+}
+
+.txt-green {
+    color: greenyellow;
+}
+
+.txt-purple {
+    color: rgb(208, 128, 255);
 }
