@@ -25,13 +25,14 @@ p {
     margin-bottom: 30px;
 }
 
-.form {
+form {
     display: flex;
     flex-direction: column;
     gap: 15px;
 }
 
-textarea {
+textarea,
+input {
     padding: 10px;
 }
 

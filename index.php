@@ -16,11 +16,11 @@
             Scrivi un testo, poi scrivi nell'apposito form una parola da censurare!
         </p>
 
-        <div class="form" action="./badwords.php" method="GET">
+        <form action="./badwords.php" method="GET">
             <label for="">Paragrafo:</label>
             <textarea name="paragrafo" id="paragrafo" placeholder="Inserisci qui il tuo testo.." class="paragraph"></textarea>
             <label for="">Parola da censurare:</label>
-            <textarea name="badword" id="badword" placeholder="Inserisci qui la parola da censurare"></textarea>
+            <input name="badword" id="badword" placeholder="Inserisci qui la parola da censurare"></textarea>
             <button type="submit">Invia!</button>
         </div>
     </main>
